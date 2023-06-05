@@ -15,6 +15,7 @@ import { ThirdyearComponent } from './pages/stdlist/thirdyear/thirdyear.componen
 import { FourthyearComponent } from './pages/stdlist/fourthyear/fourthyear.component';
 import { ResourcesComponent } from './pages/resources/resources.component';
 import { EventsComponent } from './pages/events/events.component';
+import { PacementsComponent } from './pages/pacements/pacements.component';
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   { path: 'vm', component: VmComponent},
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'fourth',component:FourthyearComponent},
   { path: 'resources',component:ResourcesComponent},
   { path: 'events',component:EventsComponent},
+  { path: 'pacements',component:PacementsComponent,}
 ];
 
 @NgModule({

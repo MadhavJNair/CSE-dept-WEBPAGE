@@ -14,3 +14,14 @@
   }
 
 
+.company-logo{
+  display: flex;
+  display: contents;
+}
+
+.head{
+  color: #224e7d;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+
+}
